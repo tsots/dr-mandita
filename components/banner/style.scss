@@ -4,14 +4,15 @@
   background-image: url("../../public/banner.svg");
   background-size: 100%;
   /* max-height: calc(100vh - 10vh); */
-
 }
 
 .banner-content {
   display: grid;
   // height: calc(100vh - 100px);
-  grid-template-columns:
-    minmax(0, 12.5%) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 30.5%);
+  grid-template-columns: minmax(0, 12.5%) minmax(0, 1fr) minmax(0, 1fr) minmax(
+      0,
+      1fr
+    ) minmax(0, 1fr) minmax(0, 30.5%);
 }
 
 .content {
@@ -29,5 +30,4 @@
   height: 80%;
   margin: auto;
   background-color: purple;
-
 }

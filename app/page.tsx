@@ -15,3 +15,5 @@ const page = () => {
 };
 
 export default page;
+
+// SENTRY_AUTH_TOKEN=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
