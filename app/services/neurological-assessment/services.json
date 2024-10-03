@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Blood Tests",
+    "image": "/assets/images/Blood-Test.jpg",
+    "content": "Blood tests are used to pick up specific health concerns like muscle disorders and diseases, or infections in the spinal cord, brain and bone marrow. It’s also used to look for congenital or genetic diseases."
+  },
+  {
+    "name": "X-Rays",
+    "image": "/assets/images/X-Ray.jpg",
+    "content": "X-Rays are used to detect certain defects, infections and other neurological disorders. It’s also used to look for sinus problems, identify any fractures in your skull, or possibly to detect tumours."
+  },
+  {
+    "name": "CT and MRI Scans",
+    "image": "/assets/images/Ct-Scan.jpg",
+    "content": "Computed tomography (CT) and magnetic resonance imaging (MRI) scans look at your brain and your spine in order to detect disorders, injuries and diseases. They serve a similar purpose, but accuracy of the tests depends on the presenting problem. /n These scans are done by radiographers and analysed by radiologists."
+  }
+]
