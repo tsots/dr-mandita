@@ -7,15 +7,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: {
-    formats: ["image/avif", "image/webp"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
-    ],
-  },
 };
 
 export default withSentryConfig(
@@ -25,6 +16,7 @@ export default withSentryConfig(
 
     org: "tsots",
     project: "patients",
+    telemetry: false,
 
     // Only print logs for uploading source maps in CI
     silent: !process.env.CI,
