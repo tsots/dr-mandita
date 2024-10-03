@@ -61,18 +61,12 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-6">
-                <a
-                  href="javascript:;"
-                  className=" text-gray-600 hover:text-gray-900"
-                >
+                <a href="#" className=" text-gray-600 hover:text-gray-900">
                   Contact
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:;"
-                  className=" text-gray-600 hover:text-gray-900"
-                >
+                <a href="#" className=" text-gray-600 hover:text-gray-900">
                   Privacy
                 </a>
               </li>
@@ -97,12 +91,11 @@ const Footer = () => {
 
         <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
           <span className="text-sm text-gray-500 ">
-            ©<a href="https://pagedone.io/">pagedone</a> 2024, All rights
-            reserved.
+            ©<a href="#">dr mandita</a> 2024, All rights reserved.
           </span>
           <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
             <a
-              href="javascript:;"
+              href="#"
               className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900"
             >
               <svg
@@ -122,7 +115,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="javascript:;"
+              href="#"
               className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[linear-gradient(45deg,#FEE411_6.9%,#FEDB16_10.98%,#FEC125_17.77%,#FE983D_26.42%,#FE5F5E_36.5%,#FE2181_46.24%,#9000DC_85.57%)]  hover:bg-gradient-to-b from-gray-900 to-gray-900  
                         "
             >
@@ -139,7 +132,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="javascript:;"
+              href="#"
               className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#337FFF]  hover:bg-gray-900 "
             >
               <svg
@@ -155,7 +148,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="javascript:;"
+              href="#"
               className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#FF0000]  hover:bg-gray-900 "
             >
               <svg
