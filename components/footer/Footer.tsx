@@ -7,10 +7,7 @@ const Footer = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-0 max-w-[1160px]">
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 gap-y-8 md:gap-8 py-10 max-w-sm mx-auto sm:max-w-3xl lg:max-w-full">
           <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-            <a
-              href="https://pagedone.io/"
-              className="flex justify-center lg:justify-start"
-            >
+            <a href="/" className="flex justify-center lg:justify-start">
               <Image
                 src={"/assets/images/Logo.svg"}
                 width={200}
@@ -61,7 +58,10 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-6">
-                <a href="#" className=" text-gray-600 hover:text-gray-900">
+                <a
+                  href="/contact"
+                  className=" text-gray-600 hover:text-gray-900"
+                >
                   Contact
                 </a>
               </li>
