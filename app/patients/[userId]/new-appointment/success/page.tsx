@@ -14,22 +14,12 @@ const RequestSuccess = async ({
   const appointment = await getAppointment(appointmentId);
 
   const doctor = Doctors.find(
-    (doctor) => doctor.name === appointment.primaryPhysician,
+    (doctor) => doctor.name === appointment.primaryPhysician
   );
 
   return (
     <div className=" flex h-screen max-h-screen px-[5%]">
       <div className="success-img">
-        <Link href="/">
-          <Image
-            src="/assets/icons/logo-full.svg"
-            height={1000}
-            width={1000}
-            alt="logo"
-            className="h-10 w-fit"
-          />
-        </Link>
-
         <section className="flex flex-col items-center">
           <Image
             src="/assets/gifs/success.gif"

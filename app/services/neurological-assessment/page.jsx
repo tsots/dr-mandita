@@ -17,31 +17,35 @@ const page = () => {
         </div>
       </section>
 
-      <section className="min-w-full">
-        <div className="max-w-[1160px] mx-auto">
-          <h4>Your first neurological assessment</h4>
-          <ol>
-            <li>
-              First, we go through a few detailed questions to get a better
-              understanding of the issues you’re facing.
-            </li>
-            <li>
-              Next we’ll perform a neurological screening. If we can diagnose a
-              problem, we’ll also discuss possible treatment options.
-            </li>
-            <li>
-              If nothing can be diagnosed because further tests are needed, then
-              we’ll order these investigations. Possible investigations include
-              blood tests, x-rays and a CT scan or an MRI.
-            </li>
-          </ol>
+      <section className="min-w-full bg-gray-100 ">
+        <div className="max-w-[1160px] mx-auto items-center grid grid-cols-1 md:grid-cols-2 py-20 gap-8">
+          <Image
+            src={"/assets/images/MedicalExam.jpg"}
+            width={1920}
+            height={1080}
+            alt=""
+          />
+          <div className="content grid">
+            <h4 className="text-2xl font-bold">
+              Your first neurological assessment
+            </h4>
+            <ol className="grid gap-1">
+              <li>
+                First, we go through a few detailed questions to get a better
+                understanding of the issues you’re facing.
+              </li>
+              <li>
+                Next we’ll perform a neurological screening. If we can diagnose
+                a problem, we’ll also discuss possible treatment options.
+              </li>
+              <li>
+                If nothing can be diagnosed because further tests are needed,
+                then we’ll order these investigations. Possible investigations
+                include blood tests, x-rays and a CT scan or an MRI.
+              </li>
+            </ol>
+          </div>
         </div>
-        <Image
-          src={"/assets/images/Medical-Exam.jpg"}
-          width={1000}
-          height={1000}
-          alt=""
-        />
       </section>
 
       <section className="grid grid-cols-3 gap-24 max-w-[1160px] mx-auto py-10">
