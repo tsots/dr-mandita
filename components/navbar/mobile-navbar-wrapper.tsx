@@ -13,7 +13,7 @@ function MobileMenu({
 
   return (
     <button
-      className="fixed bg-blue-950 left-0 top-16 w-full z-50 animate-in lg:hidden"
+      className="fixed bg-[url('/banner.svg')] left-0 top-20 w-full z-50 animate-in lg:hidden"
       onClick={onClose}
     >
       {children}
@@ -34,7 +34,11 @@ export function MobileNavbarWrapper({
         className="flex lg:hidden"
         onClick={() => setShowMobileMenu(!showMobileMenu)}
       >
-        {showMobileMenu ? <X /> : <Menu className="text-white" />}
+        {showMobileMenu ? (
+          <X className="text-white" />
+        ) : (
+          <Menu className="text-white" />
+        )}
       </button>
       {showMobileMenu && (
         <MobileMenu onClose={() => setShowMobileMenu(false)}>

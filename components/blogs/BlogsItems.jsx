@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const ServicesItems = ({ blog }) => {
-  console.log(blog);
   return (
     <div className="card grid max-w-96 bg-slate-900 mx-auto pb-8">
       <Image

@@ -9,7 +9,7 @@ function activeClassName({ isActive }: { isActive: boolean }) {
 }
 
 const linkStyle =
-  "flex cursor-pointer text-lg transition-colors hover:text-foreground uppercase";
+  "flex cursor-pointer text-md transition-colors hover:text-foreground uppercase hover:text-[#B8812E]";
 
 interface NavLinkItemProps {
   href: string;

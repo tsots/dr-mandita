@@ -19,7 +19,11 @@ const Banner1 = () => {
             Book an appointment
           </a>
         </div>
-        <img src="/assets/brain-in-hands.jpg" className="" alt="" />
+        <img
+          src="/assets/brain-in-hands.jpg"
+          className="rounded-none md:rounded-l-xl shadow-sm"
+          alt=""
+        />
       </section>
     </div>
   );

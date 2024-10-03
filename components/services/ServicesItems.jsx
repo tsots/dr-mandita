@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const ServicesItems = ({ service }) => {
-  console.log(service);
   return (
     <div className="card rounded-lg max-w-96 bg-[#221A16] grid py-[32px] mx-auto">
       <h4 className="mb-4 text-[23px] pl-4 bold">{service.name}</h4>

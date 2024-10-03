@@ -2,7 +2,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <section id="about" className="w-full py-[124px]  bg-slate-50">
+      <section id="about" className="w-full py-[62px]  bg-slate-50">
         <div
           id="about-us"
           className="max-w-[1160px] w-full grid grid-cols-1 lg:grid-cols-2 gap-8 justify-between mx-auto h-[50%] shadow-gray-700 rounded-lg"

@@ -24,6 +24,7 @@ const page = () => {
             width={1920}
             height={1080}
             alt=""
+            className="rounded-xl shadow-md"
           />
           <div className="content grid">
             <h4 className="text-2xl font-bold">
@@ -48,12 +49,14 @@ const page = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-3 gap-24 max-w-[1160px] mx-auto py-10">
-        <ServicesItem />
+      <section className="bg-gray-200 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 max-w-[1160px] mx-auto py-10 px-8 xl:px-0">
+          <ServicesItem />
+        </div>
       </section>
 
       <section className="follow-up bg-red-100 flex items-center h-60">
-        <div className="flex items-center gap-24 max-w-[1160px] mx-auto">
+        <div className="flex items-center gap-24 max-w-[1160px] mx-auto px-8 xl:px-0">
           <h4 className="flex-0">Your follow up visit</h4>
           <p className="flex-1">
             When you come back we’ll discuss your response to treatments and

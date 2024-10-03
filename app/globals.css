@@ -96,8 +96,12 @@
 
   /* ==== FORM */
   .radio-group {
-    @apply flex h-full flex-1 items-center gap-2 rounded-md border border-dashed border-dark-500 bg-gray-100 p-3;
+    @apply flex h-full flex-1 items-center gap-2 rounded-md border border-dashed border-dark-500 bg-[#f9f9f9] p-3;
   }
+
+  /* .radio-group {
+    @apply flex h-full flex-1 items-center gap-2 rounded-md border border-dashed border-dark-500 bg-[#f9f9f9] p-3;
+  } */
 
   .checkbox-label {
     @apply cursor-pointer text-sm font-medium text-dark-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70 md:leading-none;
@@ -183,7 +187,7 @@
 
   /* =====  SHADCN OVERRIDES */
   .shad-primary-btn {
-    @apply bg-green-500 text-white !important;
+    @apply bg-[#B8812E] text-white !important;
   }
 
   .shad-danger-btn {
@@ -195,11 +199,15 @@
   }
 
   .shad-input-label {
-    @apply text-14-medium text-white !important;
+    @apply text-14-medium text-gray-800 !important;
   }
 
+  /* .shad-input-label {
+    @apply text-14-medium text-white !important;
+  } */
+
   .shad-input {
-    @apply bg-[#f9f9f9] placeholder:text-gray-300 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-[#f9f9f9] placeholder:text-gray-900 border-dark-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .shad-input-icon {
@@ -207,8 +215,12 @@
   }
 
   .shad-textArea {
-    @apply bg-gray-100 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-[#f9f9f9] placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
+
+  /* .shad-textArea {
+    @apply bg-green-400 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+  } */
 
   .shad-combobox-item {
     @apply data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 !important;
@@ -227,8 +239,12 @@
   }
 
   .shad-dialog {
-    @apply bg-dark-400 border-dark-500 !important;
+    @apply bg-[#f7f7f7] border-dark-500 !important;
   }
+
+  /* .shad-dialog {
+    @apply bg-dark-400 border-dark-500 !important;
+  } */
 
   .shad-dialog button {
     @apply focus:ring-0 focus:ring-offset-0 focus-visible:border-none focus-visible:outline-none focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
@@ -247,7 +263,7 @@
   }
 
   .shad-table-row {
-    @apply border-b border-dark-400 text-light-200 !important;
+    @apply border-b border-dark-400 text-dark-400 !important;
   }
 
   .shad-otp {
@@ -281,6 +297,7 @@
 .react-datepicker-wrapper.date-picker {
   display: flex;
   align-items: center;
+  background-color: #f9f9f9;
 }
 
 .react-datepicker,
@@ -290,7 +307,8 @@
 .react-datepicker__day-name,
 .react-datepicker__day,
 .react-datepicker-time__header {
-  background-color: #1a1d21 !important;
+  /* background-color: #1a1d21 !important; */
+  background-color: #abb8c4 !important;
   border-color: #363a3d !important;
   color: #abb8c4 !important;
 }
@@ -312,7 +330,7 @@
 }
 
 .react-datepicker__input-container input {
-  background-color: #1a1d21 !important;
+  /* background-color: #1a1d21 !important; */
   width: 100%;
   outline: none;
 }
@@ -348,6 +366,8 @@
 .PhoneInputInput::placeholder {
   color: gray;
 }
+
+/* AUGMENTATIONS */
 
 .vert-card {
 }

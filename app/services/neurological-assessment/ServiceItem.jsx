@@ -6,9 +6,10 @@ const ServiceItem = () => {
   return (
     <>
       {services.map((service) => (
-        <div className="pt-16">
-          <h4 className="text-xl uppercase font-bold mb-4">{service.name}</h4>
-          <p className="mb-4">{service.content}</p>
+        <div className="pt-4 rounded-xl shadow-sm hover:shadow-md bg-gray-100 max-w-[400px] mx-auto">
+          <h4 className="text-xl uppercase font-bold mb-4 px-4">
+            {service.name}
+          </h4>
           <Image
             src={service.image}
             width={500}
@@ -16,6 +17,7 @@ const ServiceItem = () => {
             alt=""
             className="object-cover"
           />
+          <p className="mb-4 mt-4 px-4">{service.content}</p>
         </div>
       ))}
     </>

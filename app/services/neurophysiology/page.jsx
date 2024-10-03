@@ -17,11 +17,13 @@ const page = () => {
 
       {/* I have a major problem */}
 
-      <section className="">
-        <div className="max-w-[1160px] mx-auto">
-          <div className="grid grid-cols-2">
-            <div className="content">
-              <h4 className={styles.main}>Electroencephalogram | EEG</h4>
+      <section className="pt-0">
+        <div className="max-w-[1160px] mx-auto px-4 xl:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-4 gap-8">
+            <div className="contentd ">
+              <h4 className="pt-10 pb-6 text-3xl">
+                Electroencephalogram | EEG
+              </h4>
               <p>
                 During an EEG your brainwaves are recorded on a computer. We
                 analyse the frequency of brain activity and also look at the
@@ -43,16 +45,24 @@ const page = () => {
               width={1000}
               height={1000}
               alt=""
+              className="rounded-md shadow-md order-2 md:order-1"
             />
           </div>
         </div>
       </section>
 
-      <section className="egg pt-20">
-        <div className="max-w-[1160px] mx-auto">
-          <div className="grid grid-cols-2">
-            <div className="bg-gray-300">
-              <h4 className={styles.main}>
+      <section className="egg bg-gray-100 pb-10 mb-10 mt-8">
+        <div className="max-w-[1160px] mx-auto px-4 xl:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+            <Image
+              src={"/assets/images/Electromyography.jpg"}
+              width={1000}
+              height={1000}
+              alt=""
+              className="rounded-md shadow-md order-2 md:order-1"
+            />
+            <div className="order-1 md:order-2">
+              <h4 className="pt-10 pb-6 text-3xl">
                 Nerve conduction studies and electromyography | EMG
               </h4>
               <p>We use these tests to look for motor neurone conditions. </p>
@@ -76,12 +86,6 @@ const page = () => {
                 spinal cord disorders.
               </p>
             </div>
-            <Image
-              src={"/assets/images/Electromyography.jpg"}
-              width={1000}
-              height={1000}
-              alt=""
-            />
           </div>
         </div>
       </section>

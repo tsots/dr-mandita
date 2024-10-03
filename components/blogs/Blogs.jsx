@@ -24,7 +24,7 @@ const Blogs = () => {
   return (
     <section
       id="services"
-      className="services-container px-[16px] bg-[#f9f9f9] py-[124px] text-white"
+      className="services-container px-[16px] bg-[#f9f9f9] py-[62px] text-white"
     >
       <div className="mx-auto max-w-[1160px]">
         <h4 className="text-[32px] text-slate-900 font-bold text-center uppercase pb-20">

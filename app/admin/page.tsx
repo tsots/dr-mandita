@@ -12,7 +12,7 @@ const AdminPage = async () => {
   return (
     <div className="mx-auto flex max-w-7xl flex-col space-y-14">
       <header className="admin-header">
-        <p className="text-16-semibold">Admin Dashboard</p>
+        <p className="text-16-semibold text-white">Admin Dashboard</p>
       </header>
 
       <main className="admin-main">
