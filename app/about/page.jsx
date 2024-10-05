@@ -16,18 +16,18 @@ const page = () => {
         </div>
       </section>
 
-      <section className="bio">
-        <div className="max-w-[1160px] mt-[-50px] mx-auto bio-content">
-          <div className="image">
+      <section className="bio pb-12 md:pb-32">
+        <div className="max-w-[1160px] mt-[-50px] justify-center mx-auto bio-content grid grid-cols-1 md:grid-cols-2 gap-8 px-8 lg:px-">
+          <div className="image flex justify-center">
             <Image
               src={"/assets/images/dr-mandita-profile-picture.jpg"}
               width={1000}
               height={1000}
               alt=""
-              className="rounded-xl"
+              className="rounded-xl max-w-[400px] md:max-w-[100%]"
             />
           </div>
-          <div className="content mt-20">
+          <div className="content mt-20 0">
             <h4 className="text-5xl mb-6">Dr Mandita</h4>
             <p className="">
               I have a passion for improving people’s quality of life, so my
@@ -41,9 +41,20 @@ const page = () => {
         </div>
       </section>
 
-      <section className="appraisal">
-        <div className="max-w-[1160px] mx-auto">
-          <p>
+      <section className="appraisal pb-10 px-8 xl:px-0">
+        <div className="max-w-[1160px] mx-auto grid  grid-cols-1 md:grid-cols-2 gap-8">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_dPTaeGX4no?si=eHEFgYEXtwwmOk9g"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            className="px-8 lg:px-0 order-2"
+          ></iframe>
+          <p className="order-1">
             Neurologist Dr Mandita completed her Bachelor of Medicine and
             Surgery (MBChB) at the University of KwaZulu-Natal, Durban. In 2016
             she became a qualified neurologist through the Colleges of Medicine
