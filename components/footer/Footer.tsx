@@ -93,7 +93,7 @@ const Footer = () => {
           <span className="text-sm text-gray-500 ">
             ©<a href="#">dr mandita</a> 2024, All rights reserved.
           </span>
-          <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
+          {/* <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
             <a
               href="#"
               className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900"
@@ -165,7 +165,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

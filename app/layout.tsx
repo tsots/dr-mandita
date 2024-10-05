@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
   icons: {
-    icon: "/assets/images/Logo.svg",
+    icon: "/assets/logo-brain.svg",
   },
 };
 

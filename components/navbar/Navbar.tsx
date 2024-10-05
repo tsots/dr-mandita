@@ -18,7 +18,7 @@ const navItems = [
   },
   {
     id: 2,
-    href: "/#about",
+    href: "/about",
     label: "About",
     isExternal: false,
   },

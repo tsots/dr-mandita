@@ -1,0 +1,22 @@
+.wrapper {
+  p {
+    color: #818181;
+    margin-block: 1rem;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-block-end: 2rem;
+  }
+  .date {
+    color: #bebebe;
+  }
+  & > div {
+    max-width: 1160px;
+    margin-inline: auto;
+    // background-color: green;
+  }
+}

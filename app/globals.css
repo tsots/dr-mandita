@@ -383,3 +383,47 @@
 
 .card-content {
 }
+
+/* img {
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+
+/* .card {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.card > img {
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+
+/* .card p,
+.card h4 {
+padding-inline: 16px;
+} 
+*/
+
+/* .card h4 {
+  font-size: 32px;
+  line-height: 1;
+} */
+
+.card p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* *,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */

@@ -1,0 +1,45 @@
+.content {
+  max-width: 60ch;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#about-page {
+  .bio,
+  .appraisal {
+    p {
+      max-width: 60ch;
+    }
+  }
+  .image {
+    max-width: 338px;
+  }
+
+  .bio-content {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin-block-start: 1.5rem;
+      line-height: 1.5;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .bio-content {
+      flex-direction: row;
+      // background-color: purple;
+      gap: 24px;
+    }
+  }
+}
+
+.appraisal {
+  padding-block-start: 3rem;
+  padding-block-end: 2rem;
+  p {
+    font-size: 18px;
+
+    margin-inline: auto;
+    line-height: 1.4;
+  }
+}
