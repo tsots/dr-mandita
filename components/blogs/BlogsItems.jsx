@@ -10,7 +10,9 @@ const ServicesItems = ({ blog }) => {
         alt=""
         className="mb-[16px]"
       />
-      <h4 className="mb-4 text-[23px] px-4 font-semibold">{blog.name}</h4>
+      <a href={blog.link} className="hover:text-gray-300 ease-out duration-300">
+        <h4 className="mb-4 text-[23px] px-4 font-semibold">{blog.name}</h4>
+      </a>
       <p className="mb-[28px] text-[18px] leading-[150%] px-4 ">
         {blog.excerpt}
       </p>

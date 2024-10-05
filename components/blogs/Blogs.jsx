@@ -4,7 +4,7 @@ import Image from "next/image";
 const blogs = [
   {
     id: 1,
-    name: "Migraine headaches ...",
+    name: "Migraine headaches, don’t just pop a pill!",
     excerpt:
       "It is estimated that migraines affect up to 12 percent of the general population",
     image: "/assets/images/Migraines.jpg",

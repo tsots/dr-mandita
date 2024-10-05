@@ -6,8 +6,8 @@ const Banner1 = () => {
     <div className="">
       <section className="full-width-split-screen banner">
         <div className="">
-          <h1 className="banner-title text-[33px] leading-[36.3px] font-bold uppercase px-8 sm:px-16 md:px-0 mb-4">
-            Personalised neurology care with impact
+          <h1 className="banner-title text-[2rem] font-bold uppercase px-8 sm:px-16 md:px-0 mb-4">
+            Personalised neurology <br /> care with impact
           </h1>
           <p className="banner-sub leading-[20px] text-[20px] font-[20px] px-8 sm:px-16 md:px-0">
             Focused on delivering neurology care that enhances your life

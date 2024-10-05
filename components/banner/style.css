@@ -56,7 +56,7 @@ img {
 h1.banner-title {
   text-align: center;
   line-height: 1.1;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 p.banner-sub {
@@ -109,7 +109,7 @@ consistency */
 @media (min-width: 768px) {
   h1.banner-title {
     text-align: left;
-    line-height: 1.1;
+    line-height: 1.2;
     max-width: 90%;
   }
 
